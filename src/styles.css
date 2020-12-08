@@ -1,9 +1,35 @@
 body {
   font-family: "Oxygen", sans-serif;
+  font-weight: bolder;
+}
+
+.btn-sm {
+  color: #1ab2a8;
+  border-color: #1ab2a8;
+  border-radius: 4px;
+  line-height: 2;
+  background-color: white;
+  font-weight: bolder;
+}
+
+.btn-secondary {
+  color: #ac49bd;
+  border-radius: 4px;
+  line-height: 1.5;
+  background-color: white;
+  font-weight: bolder;
+}
+
+.city-name {
+  border-radius: 4px;
+  line-height: 2;
+  border-color: #ffab30;
+  font-weight: bolder;
+  color: #ffab30;
 }
 
 h2 {
-  color: #ffab30;
+  color: #ff3467;
 }
 
 p {
@@ -31,22 +57,35 @@ ul {
   max-width: 600px;
   margin: 30px auto;
   padding: 30px 60px;
-  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
 }
 
 .weather {
   display: block;
   max-width: 600px;
-  border-radius: 18px;
-  border-color: black;
+  border-radius: 4px;
 }
 
 .container {
-  border-radius: 4px;
+  border-radius: 20px;
   max-width: 600px;
   margin: 30px auto 0 auto;
   padding: 30px;
-  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
 }
 .forecast {
   margin: 5px auto;
@@ -68,7 +107,7 @@ ul {
 
 .today {
   font-weight: bolder;
-  color: #ffab30;
+  color: #ff3467;
 }
 
 .github-link {
@@ -84,6 +123,8 @@ ul {
 
 .search-form {
   width: 100%;
+  border-radius: 15px;
+  border-color: #1ab2a8;
 }
 
 .weather-temperature img {
@@ -93,7 +134,7 @@ ul {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: #1f6f8b;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -136,7 +177,7 @@ ul {
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #ff3467;
   cursor: default;
 }
 
