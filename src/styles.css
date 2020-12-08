@@ -3,7 +3,7 @@ body {
 }
 
 h2 {
-  color: #455a64;
+  color: #ffab30;
 }
 
 p {
@@ -68,6 +68,7 @@ ul {
 
 .today {
   font-weight: bolder;
+  color: #ffab30;
 }
 
 .github-link {
