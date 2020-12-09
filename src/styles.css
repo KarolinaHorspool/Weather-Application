@@ -4,20 +4,41 @@ body {
 }
 
 .btn-sm {
-  color: #1ab2a8;
-  border-color: #1ab2a8;
+  margin: 20px auto;
+  border: 5px groove #5dc4e1;
+  background: #5dc4e1;
+  color: #1f6f8b;
   border-radius: 4px;
   line-height: 2;
-  background-color: white;
   font-weight: bolder;
+  transition: all 300ms ease;
+
+  cursor: pointer;
+}
+
+.btn-sm:hover {
+  background: linear-gradient(#1f6f8b, #99c3cb);
+  color: #5dc4e1;
+  border: 5px groove #1f6f8b;
 }
 
 .btn-secondary {
+  margin: 20px auto;
+  border: 5px groove #d5bf75;
+  background: #d5bf75;
   color: #ac49bd;
-  border-radius: 4px;
-  line-height: 1.5;
-  background-color: white;
   font-weight: bolder;
+  line-height: 1.5;
+  border-radius: 4px;
+  transition: all 300ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(#ac49bd, #ab87c7);
+  color: #d5bf75;
+  border: 5px groove #ac49bd;
 }
 
 .city-name {
@@ -25,11 +46,14 @@ body {
   line-height: 2;
   border-color: #ffab30;
   font-weight: bolder;
-  color: #ffab30;
+  color: #ff3467;
+  background-color: #dfacab;
 }
 
 h2 {
   color: #ff3467;
+  font-size: 35px;
+  font-weight: bolder;
 }
 
 p {
