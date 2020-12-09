@@ -110,6 +110,11 @@ ul {
   color: #ff3467;
 }
 
+.terms {
+  color: #ac49bd;
+  text-transform: capitalize;
+}
+
 .github-link {
   font-size: 12px;
   text-align: center;
