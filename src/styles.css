@@ -1,6 +1,7 @@
 body {
   font-family: "Oxygen", sans-serif;
   font-weight: bolder;
+  background-image: url("https://cdn.statically.io/img/wallpaperaccess.com/full/728046.jpg");
 }
 
 .btn-sm {
@@ -24,9 +25,9 @@ body {
 
 .btn-secondary {
   margin: 20px auto;
-  border: 5px groove #d5bf75;
+  border: 5px groove #ceac5d;
   background: #d5bf75;
-  color: #ac49bd;
+  color: #47a690;
   font-weight: bolder;
   line-height: 1.5;
   border-radius: 4px;
@@ -36,9 +37,9 @@ body {
 }
 
 .btn-secondary:hover {
-  background: linear-gradient(#ac49bd, #ab87c7);
+  background: linear-gradient(#47a690, #4fb19a);
   color: #d5bf75;
-  border: 5px groove #ac49bd;
+  border: 5px groove #47a690;
 }
 
 .city-name {
@@ -81,14 +82,7 @@ ul {
   max-width: 600px;
   margin: 30px auto;
   padding: 30px 60px;
-  background-image: linear-gradient(
-    to right,
-    #eea2a2 0%,
-    #bbc1bf 19%,
-    #57c6e1 42%,
-    #b49fda 79%,
-    #7ac5d8 100%
-  );
+  background-image: url("https://cdn.statically.io/img/wallpaperaccess.com/full/727619.jpg");
 }
 
 .weather {
@@ -102,15 +96,9 @@ ul {
   max-width: 600px;
   margin: 30px auto 0 auto;
   padding: 30px;
-  background-image: linear-gradient(
-    to right,
-    #eea2a2 0%,
-    #bbc1bf 19%,
-    #57c6e1 42%,
-    #b49fda 79%,
-    #7ac5d8 100%
-  );
+  background-image: url("https://cdn.statically.io/img/wallpaperaccess.com/full/727619.jpg");
 }
+
 .forecast {
   margin: 5px auto;
 }
@@ -135,7 +123,7 @@ ul {
 }
 
 .terms {
-  color: #ac49bd;
+  color: #94622e;
   text-transform: capitalize;
 }
 
